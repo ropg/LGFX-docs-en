@@ -9,8 +9,8 @@ version: 2
 python:
   version: 3.8
   install:
-    - requirements: requirements.txt
+    - requirements: documentation/requirements.txt
       
-# Build documentation in the root directory with Sphinx
+# Build documentation in the documentation/ directory with Sphinx
 sphinx:
-   configuration: conf.py
+   configuration: documentation/conf.py
